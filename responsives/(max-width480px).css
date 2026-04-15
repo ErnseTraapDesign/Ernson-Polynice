@@ -1,0 +1,442 @@
+@media screen and (max-width: 480px){
+    
+    /* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    HEADER */
+
+    nav{
+        padding: 0 1rem;
+        height: 70px;
+    }
+
+    .logo img, .nav-logo img{
+        width: 140px;
+    }
+
+    .navigation-container{
+        width: 70%;
+    }
+
+    .navigation a{
+        font-size: 17px;
+    }
+
+
+
+    /* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    WHATSAPP ICON */
+
+    .whatsapp-icon img{
+        width: 50px;
+    }
+
+    .whatsapp-icon{
+        right: 20px;
+        bottom: 10px;
+    }
+
+
+
+    /* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    HOME */
+
+    .home{
+        padding: 2rem 1rem;
+    }
+
+    .home-content{
+        max-width: auto;
+        text-align: center;
+        margin: 2rem 0 1rem 0;
+    }
+
+    .home-content h2{
+        font-size: 37px;
+        line-height: 1.2;
+    }
+
+    .home-content p{
+        font-size: 20px;
+        padding: 0 35px;
+    }
+
+    .home-image img{
+        width: 55vw;
+    }
+
+    .cta a{
+        font-size: 17px;
+        font-weight: 650;
+        padding: 15px;
+    }
+
+
+
+    /* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    ABOUT */
+
+    .about-me{
+        flex-direction: column-reverse;
+        width: 100%;
+        padding: 2rem 1rem;
+    }
+
+    .about-image img{
+        width: 35vw;
+        height: auto;
+    }
+
+    .section-title{
+        font-size: 15px;
+    }
+
+    .about-content .about-question{
+        font-size: 26px;
+    }
+
+
+
+    /* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    SERVICES */
+
+    .service-content{
+        gap: 1rem;
+        width: 100%;
+        margin: auto;
+    }
+
+    .section-description{
+        width: 80%;
+        font-size: 20px;
+    }
+
+    .section-question{
+        font-size: 26px;
+    }
+
+    .service-card p{
+        line-height: 1.3;
+    }
+
+
+
+    /* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    PROCESS */
+
+    .process-content{
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .process-card{
+        border: none;
+        padding: 0;
+        border-bottom: 2px solid #6FD3B7;
+        padding-bottom: 1rem;
+    }
+
+    .process-card p{
+        font-weight: 530;
+    }
+
+    .process-card h4{
+        font-size: 21px;
+    }
+
+
+
+    /* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    FAQ */
+
+    .faq-content{
+        flex-direction: column;
+    }
+
+    .faq-intro{
+        width: 90%;
+        text-align: center;
+    }
+
+    .faq-list{
+        width: 95%;
+    }
+
+    .faq-intro p{
+        font-size: 17px;
+        line-height: 1.5;
+    }
+
+    .faq-question h4{
+        font-size: 1.1rem;
+    }
+
+
+
+    /* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    CONTACT */
+
+    form{
+        width: 100%;
+        padding: 2rem 1rem;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .contact-image{
+        align-items: center;
+    }
+
+    .contact-image div{
+        text-align: center;
+        font-size: 17px;
+        line-height: 1.5;
+    }
+
+    .contact-image img{
+        width: 200px;
+        height: 120px;
+    }
+
+    .contact-info input{
+        width: 260px;
+    }
+
+    .contact-message .message-area textarea{
+        width: 260px;
+    }
+
+
+
+    /* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    FOOTER */
+
+    .Ernse-description{
+        text-align: center;
+        gap: 0;
+    }
+
+    .Ernse-description div{
+        font-size: 14px;
+        padding: 0 10px;
+    }
+
+    .Ernse-description .sc{
+        padding: 0;
+    }
+
+    .footer-icons a{
+        width: 30px;
+        height: 30px;
+    }
+
+    .footer-icons a div i{
+        font-size: 13px;
+    }
+
+    .copyright{
+        font-size: 13px;
+    }
+
+    .Traap-scroll .Traap span{
+        font-size: 12px;
+    }
+
+
+
+    /* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    HOME BLOG*/
+
+    .home-blog-content{
+        width: 95%;
+    }
+
+    .home-blog-content h1{
+        font-size: 35px;
+    }
+
+    .home-blog-content p{
+        font-size: 20px;
+        text-align: center;
+        padding: 0 15px;
+        line-height: 1.2;
+    }
+
+
+    /* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    BLOG WEB && BLOG GRAPHIC SECTION*/
+
+    .blog-web-title h2, .blog-graphic-title h2{
+        font-size: 20px;
+        padding: 8px 15px;
+    }
+
+    .blog-web, .blog-graphic{
+        padding: 2rem 1rem;
+    }
+
+
+
+    /* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    HOME ARTICLE*/
+
+    .home-article{
+        border-bottom: none;
+        padding-top: 70px;
+    }
+
+    .home-article-container{
+        width: 100%;
+        height: 100%;
+        border-radius: 0;
+        /* margin-top: ; */
+    }
+
+    .home-article-content .cat-time{
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .cat-time span:nth-child(2){
+        display: none;
+    }
+
+    .home-article-content h1{
+        font-size: 2.2rem;
+        line-height: 1.1;
+    }
+
+    .cat-time span{
+        font-size: 1rem;
+    }
+
+
+
+    /* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    ARTICLE*/
+
+    .article-question h3{
+        font-size: 1.4rem;
+    }
+
+    .article-content{
+        gap: 1rem;
+    }
+
+    .article-content img{
+        width: 80vw;
+        border-radius: 10px;
+    }
+
+    .article-content .contents p{
+        font-size: 16px;
+    }
+
+    .btn-article a{
+        font-size: 17px;
+    }
+
+
+
+    /* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    SIMILAR ARTICLES*/
+
+    .similar h3, .article-project h3{
+        font-size: 13px;
+    }
+
+
+
+
+    /* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    HOME ARTICLE 2*/
+
+    .home-article-container2{
+        width: 100%;
+        height: 100%;
+        border-radius: 0;
+    }
+
+
+
+
+    /* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    HOME ARTICLE 3*/
+
+    .home-article-container3{
+        width: 100%;
+        height: 100%;
+        border-radius: 0;
+    }
+
+
+
+
+    /* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    HOME ARTICLE 4*/
+
+    .home-article-container4{
+        width: 100%;
+        height: 100%;
+        border-radius: 0;
+    }
+
+
+
+
+    /* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    HOME ARTICLE 5*/
+
+    .home-article-container5{
+        width: 100%;
+        height: 100%;
+        border-radius: 0;
+    }
+
+
+
+
+    /* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    HOME ARTICLE 6*/
+
+    .home-article-container6{
+        width: 100%;
+        height: 100%;
+        border-radius: 0;
+    }
+
+
+
+
+    /* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    ARTICLE PROJECT*/
+
+    .project-carousel img{
+        flex: 0 0 100%;
+    }
+
+
+
+
+    /* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    ARTICLE PROJECT*/
+
+    /* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    ARTICLE CTA*/
+
+    .article-cta{
+        padding: 3rem 0;
+    }
+
+    .article-cta-bg{
+        width: 100%;
+        height: 400px;
+        justify-content: center;
+        border-left: none;
+        border-right: none;
+    }
+
+    .article-cta-content p{
+        font-size: 16px;
+        margin-bottom: 4rem;
+        line-height: 1.4;
+    }
+}

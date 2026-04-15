@@ -1,0 +1,192 @@
+@media screen and (max-width: 1024px){
+
+    .navigation a{
+        font-size: 17px;
+    }
+
+    /* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    HOME */
+
+    .home{
+        min-height: 500px;
+    }
+
+    .home-content{
+        max-width: 500px;
+    }
+
+    .home-content h2{
+        font-size: 2.5rem;
+    }
+
+    .home-content p{
+        font-size: 20px;
+    }
+
+    .home-image img{
+        width: 250px;
+        height: 250px;
+    }
+
+    .Resaux-sociaux{
+        margin-bottom: 1rem;
+    }
+
+    .Social-icon{
+        font-size: 17px;
+        padding: 15px;
+    }
+
+    .cta a{
+        font-size: 15px;
+    }
+
+
+
+    /* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    ABOUT */
+
+    .about-me{
+        width: 100%;
+    }
+
+
+
+    /* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    SERVICES */
+
+    .service-content{
+        gap: 1rem;
+    }
+
+
+
+    /* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    PROCESS */
+
+    .process-content{
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .process-card{
+        border: none;
+        padding: 0;
+        border-bottom: 2px solid #6FD3B7;
+        padding-bottom: 1rem;
+    }
+
+
+
+    /* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    CONTACT */
+
+    form{
+        width: 90%;
+        padding: 2rem 1rem;
+        /* flex-direction: column; */
+        gap: 2rem;
+    }
+
+    .contact-image img{
+        width: 250px;
+        height: 170px;
+    }
+
+
+
+    /* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    HOME BLOG*/
+
+    .home-blog-content{
+        width: 70%;
+    }
+
+    .home-blog-content h1{
+        font-size: 2.7rem;
+    }
+
+    .home-blog-content p{
+        font-size: 22px;
+    }
+
+
+    /* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    BLOG WEB && BLOG GRAPHIC SECTION*/
+
+    .blog-web-title h2, .blog-graphic-title h2{
+        font-size: 25px;
+    }
+
+    .blog-web, .blog-graphic{
+        padding: 2rem 1rem;
+    }
+
+    .web-cards, .graphic-cards{
+        padding: 0 1.5rem;
+        /* gap: 30px; */
+    }
+
+
+
+    /* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    HOME ARTICLE*/
+
+    .home-article-content{
+        max-width: 600px;
+    }
+
+    .home-article-content h1{
+        font-size: 3rem;
+        line-height: 1;
+    }
+
+    .cat-time span{
+        font-size: 1.2rem;
+    }
+
+
+
+    /* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    ARTICLE*/
+
+    .article-question h3{
+        font-size: 1.7rem;
+    }
+
+    .article-content img{
+        width: 30vw;
+    }
+
+    .article-content .contents p{
+        font-size: 19px;
+    }
+
+    .btn-article{
+        margin-top: 2rem;
+    }
+
+    .btn-article a{
+        font-size: 17px;
+    }
+
+
+
+    /* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    SIMILAR ARTICLES*/
+
+    .similar-article{
+        max-width: 650px;
+        max-height: 200px;
+    }
+
+
+
+    /* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    ARTICLE CTA*/
+
+    .article-cta-bg{
+        width: 100%;
+    }
+
+}

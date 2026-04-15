@@ -92,7 +92,7 @@
         padding: 1rem 0 0;
     }
 
-    .navigation-container .nav-logo img{
+    .navigation-container .nav-logo img {
         margin: 0;
     }
 
@@ -111,6 +111,7 @@
 
     .home-content p {
         margin-bottom: 2rem;
+        line-height: 1.4;
     }
 
     .Resaux-sociaux {
@@ -154,8 +155,13 @@
         gap: 1rem;
     }
 
+    .section-question{
+        font-size: 30px;
+    }
+
     .section-description {
         width: 80%;
+        line-height: 1.4;
     }
 
 
@@ -185,7 +191,7 @@
         width: 90%;
     }
 
-    .btn-sapp a{
+    .btn-sapp a {
         padding: 10px;
     }
 
@@ -194,6 +200,7 @@
 
     .swiper {
         max-width: 700px;
+        margin-top: 1rem;
     }
 
     .card-wrapper {
@@ -216,6 +223,10 @@
     .faq-intro {
         width: 70%;
         text-align: center;
+    }
+
+    .faq-intro h2 {
+        font-size: 30px;
     }
 
     .faq-list {

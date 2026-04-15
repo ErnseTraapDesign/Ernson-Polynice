@@ -106,11 +106,12 @@
 
     .section-description{
         width: 80%;
-        font-size: 20px;
+        font-size: 19px;
     }
 
     .section-question{
         font-size: 26px;
+        padding: 0 2rem;
     }
 
     .service-card p{
@@ -135,11 +136,14 @@
     }
 
     .process-card p{
-        font-weight: 530;
+        font-weight: 450;
+        font-size: 16px;
+        line-height: 1.5;
     }
 
     .process-card h4{
-        font-size: 21px;
+        font-size: 20px;
+        padding-left: 0.5rem;
     }
 
 
@@ -158,6 +162,14 @@
 
     .faq-list{
         width: 95%;
+    }
+
+    .faq-intro h2{
+        font-size: 30px;
+    }
+
+    .faq-intro div{
+        font-size: 26px;
     }
 
     .faq-intro p{

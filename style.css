@@ -306,13 +306,13 @@ SERVICES */
     text-align: center;
 }
 
-.services .section-question{
+.section-question{
     font-size: 35px;
     margin-bottom: 0.7rem;
 }
 
 .section-description{
-    font-size: 22px;
+    font-size: 20px;
     width: 50%;
     margin: 0 auto 2rem;
 }
@@ -422,11 +422,13 @@ PROCESS */
 .process-card h4{
     font-size: 24px;
     margin-bottom: 1rem;
+    border-left: 4px solid #6FD3B7;
+    padding-left: 1rem;
 }
 
 .process-card p{
-    font-weight: 600;
-    line-height: 1.4;
+    font-weight: 450;
+    line-height: 1.5;
     font-size: 17px;
 }
 
@@ -545,7 +547,7 @@ TESTIMONIAL */
     width: 100%;
     max-width: 1150px;
     margin-top: 2rem;
-    z-index: 0;
+    /* z-index: 0; */
 }
 
 .card-wrapper{
@@ -586,7 +588,7 @@ TESTIMONIAL */
     background-color: #3F3F3F;
     border-radius: 12px;
     padding: 10px;
-    pointer-events: none;
+    /* pointer-events: none; */
 }
 
 .testimonial-card .top-card{
@@ -667,13 +669,13 @@ SERVICES */
 }
 
 .faq-intro h2{
-    font-size: 40px;
+    font-size: 35px;
     color: #6FD3B7;
     margin-bottom: 2rem;
 }
 
 .faq-intro div{
-    font-size: 30px;
+    font-size: 28px;
     margin-bottom: 1rem;
     font-weight: 600;
 }

@@ -85,6 +85,7 @@ const observer = new IntersectionObserver((entries) => {
             ], {
                 duration: 800
             })
+            observer.unobserve(entry.target)
         }
     })
 })

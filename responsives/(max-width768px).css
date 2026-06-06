@@ -125,6 +125,11 @@
         border-radius: 10px;
     }
 
+    .cta{
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+
     .cta a {
         font-size: 18px;
         font-weight: 650;

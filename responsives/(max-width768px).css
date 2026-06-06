@@ -125,9 +125,17 @@
         border-radius: 10px;
     }
 
-    .cta{
+    .cta {
+        width: 100%;
         flex-direction: column;
-        gap: 1.5rem;
+        gap: 1.4rem;
+        margin-top: 10px;
+    }
+
+    .cta .cta-btn,
+    .cta .article-btn {
+        width: 100%;
+        max-width: 250px;
     }
 
     .cta a {
@@ -151,7 +159,7 @@
         height: auto;
     }
 
-    .section-title h3{
+    .section-title h3 {
         font-size: 14px;
     }
 
@@ -164,7 +172,7 @@
         gap: 1rem;
     }
 
-    .section-question{
+    .section-question {
         font-size: 30px;
     }
 

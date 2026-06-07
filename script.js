@@ -97,6 +97,7 @@ elements.forEach(element => {
 
 
 
+
 // %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 // SCROLLSPY
 
@@ -124,6 +125,7 @@ if (curentPage === 'index.html' || curentPage === '') {
     window.addEventListener('scroll', activeSection)
     window.addEventListener('load', activeSection)
 }
+
 const path = window.location.pathname
 navLinks.forEach(link => {
     // const linkPage = link.getAttribute('href').split('#')[0] || "index.html"
@@ -138,39 +140,41 @@ navLinks.forEach(link => {
 // %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 // TESTIMONIALS CAROUSEL
 
-const swiper = new Swiper(".card-wrapper", {
-    spaceBetween: 20,
-    loop: false,
+if (path.includes('index')) {
+    const swiper = new Swiper(".card-wrapper", {
+        spaceBetween: 20,
+        loop: false,
 
-    // pagination bullets
-    pagination: {
-        el: '.swiper-pagination',
-        clickable: true,
-        dynamic: true
-    },
+        // pagination bullets
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+            dynamic: true
+        },
 
-    // Naviagtion arrows
-    navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev'
-    },
+        // Naviagtion arrows
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev'
+        },
 
-    // slidesPerView: 3,
-    breakpoints: {
-        0: {
-            slidesPerView: 1,
+        // slidesPerView: 3,
+        breakpoints: {
+            0: {
+                slidesPerView: 1,
+            },
+            550: {
+                slidesPerView: 2,
+            },
+            768: {
+                slidesPerView: 2,
+            },
+            1024: {
+                slidesPerView: 3,
+            },
         },
-        550: {
-            slidesPerView: 2,
-        },
-        768: {
-            slidesPerView: 2,
-        },
-        1024: {
-            slidesPerView: 3,
-        },
-    },
-})
+    })
+}
 
 
 

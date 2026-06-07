@@ -100,7 +100,7 @@ elements.forEach(element => {
 // %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 // SCROLLSPY
 
-const curentPage = window.location.pathname.split('/').pop()
+const curentPage = window.location.pathname.split('/').pop() || "index.html"
 
 if (curentPage === 'index.html' || curentPage === '') {
     const sections = document.querySelectorAll('main section[id]')
@@ -130,7 +130,6 @@ navLinks.forEach(link => {
         navLinks.forEach(l => l.classList.remove('active'))
         link.classList.add('active')
     }
-
 })
 
 

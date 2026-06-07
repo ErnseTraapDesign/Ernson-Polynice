@@ -124,9 +124,10 @@ if (curentPage === 'index.html' || curentPage === '') {
     window.addEventListener('scroll', activeSection)
     window.addEventListener('load', activeSection)
 }
+const path = window.location.pathname
 navLinks.forEach(link => {
-    const linkPage = link.getAttribute('href').split('#')[0] || "index.html"
-    if (linkPage === curentPage) {
+    // const linkPage = link.getAttribute('href').split('#')[0] || "index.html"
+    if (path.includes('blog')) {
         navLinks.forEach(l => l.classList.remove('active'))
         link.classList.add('active')
     }

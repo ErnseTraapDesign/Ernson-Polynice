@@ -105,7 +105,7 @@ const curentPage = window.location.pathname.split('/').pop()
 if (curentPage === 'index.html' || curentPage === '') {
     const sections = document.querySelectorAll('main section[id]')
 
-    window.onscroll = () => {
+    const activeSection = () => {
         sections.forEach(sec => {
             let top = window.scrollY
             let offset = sec.offsetTop - 300
@@ -120,6 +120,9 @@ if (curentPage === 'index.html' || curentPage === '') {
             }
         })
     }
+
+    window.addEventListener('scroll', activeSection)
+    window.addEventListener('load', activeSection)
 }
 navLinks.forEach(link => {
     const linkPage = link.getAttribute('href').split('#')[0]

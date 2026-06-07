@@ -1149,15 +1149,17 @@ BLOG WEB && BLOG GRAPHIC SECTION*/
 }
 
 .web-cards, .graphic-cards{
+    width: 90%;
+    margin: auto;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 20px;
+    gap: 30px;
     justify-items: center;
 }
 
 .web-card, .graphic-card{
     width: 100%;
-    max-width: 350px;
+    /* max-width: 350px; */
     background-color: #2c2c2ca4;
     padding: 10px;
     border-radius: 10px;

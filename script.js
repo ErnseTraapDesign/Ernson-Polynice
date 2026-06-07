@@ -125,7 +125,7 @@ if (curentPage === 'index.html' || curentPage === '') {
     window.addEventListener('load', activeSection)
 }
 navLinks.forEach(link => {
-    const linkPage = link.getAttribute('href').split('#')[0]
+    const linkPage = link.getAttribute('href').split('#')[0] || "index.html"
     if (linkPage === curentPage) {
         navLinks.forEach(l => l.classList.remove('active'))
         link.classList.add('active')

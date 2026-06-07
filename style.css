@@ -1154,6 +1154,8 @@ BLOG WEB && BLOG GRAPHIC SECTION*/
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 30px;
+    align-items: center;
+    justify-content: center;
     justify-items: center;
 }
 

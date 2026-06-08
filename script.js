@@ -137,46 +137,6 @@ navLinks.forEach(link => {
 
 
 
-// %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-// TESTIMONIALS CAROUSEL
-
-if (path.includes('index')) {
-    const swiper = new Swiper(".card-wrapper", {
-        spaceBetween: 20,
-        loop: false,
-
-        // pagination bullets
-        pagination: {
-            el: '.swiper-pagination',
-            clickable: true,
-            dynamic: true
-        },
-
-        // Naviagtion arrows
-        navigation: {
-            nextEl: '.swiper-button-next',
-            prevEl: '.swiper-button-prev'
-        },
-
-        // slidesPerView: 3,
-        breakpoints: {
-            0: {
-                slidesPerView: 1,
-            },
-            550: {
-                slidesPerView: 2,
-            },
-            768: {
-                slidesPerView: 2,
-            },
-            1024: {
-                slidesPerView: 3,
-            },
-        },
-    })
-}
-
-
 
 // %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 // QUESTION FREQUEMENT POSEES
@@ -236,3 +196,43 @@ document.getElementById('form-contact').addEventListener('submit', function (e) 
             this.reset()
         })
 })
+
+
+// %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+// TESTIMONIALS CAROUSEL
+
+// if (path.includes('index')) {
+    const swiper = new Swiper(".card-wrapper", {
+        spaceBetween: 20,
+        loop: false,
+
+        // pagination bullets
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+            dynamic: true
+        },
+
+        // Naviagtion arrows
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev'
+        },
+
+        // slidesPerView: 3,
+        breakpoints: {
+            0: {
+                slidesPerView: 1,
+            },
+            550: {
+                slidesPerView: 2,
+            },
+            768: {
+                slidesPerView: 2,
+            },
+            1024: {
+                slidesPerView: 3,
+            },
+        },
+    })
+// }

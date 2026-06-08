@@ -1,5 +1,5 @@
 const carousel = document.querySelector('.project-carousel')
-const firstImg = carousel.querySelectorAll('img') [0]
+const firstImg = carousel.querySelectorAll('img')[0]
 const arrowIcons = document.querySelectorAll('.wrapper button')
 
 let maxScroll = carousel.scrollWidth - carousel.clientWidth
@@ -9,7 +9,7 @@ let firstImgWidth = firstImg.scrollWidth + 14
 arrowIcons.forEach(icon => {
     icon.addEventListener('click', () => {
         let direction = icon.id === "prev" ? -firstImgWidth : firstImgWidth
-        carousel.scrollBy({left: direction, behavior: "smooth"})
+        carousel.scrollBy({ left: direction, behavior: "smooth" })
     })
 })
 
@@ -29,7 +29,7 @@ const dragStart = (e) => {
 }
 
 const dragging = (e) => {
-    if(!isDragStart) return
+    if (!isDragStart) return
     e.preventDefault()
     let positionDiff = (e.pageX || e.touches[0].pageX) - prevPageX
     carousel.scrollLeft = prevScrollLeft - positionDiff
@@ -48,7 +48,7 @@ carousel.addEventListener('touchstart', dragStart)
 carousel.addEventListener('mouseup', dragStop)
 carousel.addEventListener('touchend', dragStop)
 
-
+console.log('hey')
 
 
 // %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -56,10 +56,10 @@ carousel.addEventListener('touchend', dragStop)
 
 const navLink = document.querySelectorAll('.navigation a')
 
-const path = window.location.pathname
+// const path = window.location.pathname
 
-    if(path.includes('article')) {
-        navLink.forEach(l => l.classList.remove('active'))
-        document.querySelector('.navigation a[href*="blog"]')
+if (path.includes('article')) {
+    navLink.forEach(l => l.classList.remove('active'))
+    document.querySelector('.navigation a[href*="blog"]')
         .classList.add('active')
-    }
+}
